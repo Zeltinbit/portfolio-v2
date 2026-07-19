@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import About from "./components/About";
+import "./App.css";
 
 function App() {
 
@@ -9,8 +9,7 @@ function App() {
         <>
             <Navbar />
             <Hero />
-            <About />
-            <h1>Hello, I'm Tinbite Daniel</h1>
+            <h1>Portfolio Version 2</h1>
         </>
 
     );

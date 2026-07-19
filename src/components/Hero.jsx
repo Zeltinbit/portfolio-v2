@@ -1,8 +1,15 @@
+import profile from "../assets/PROFILE_tinbit.jpg";
+
 function Hero() {
     return (
-        <section>
-            <h1>Hero Section</h1>
-        </section>
+        <header className="hero">
+            <img
+                src={profile}
+                alt="Tinbite Daniel"
+            />
+        ...
+
+        </header>
     );
 }
 
