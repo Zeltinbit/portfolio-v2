@@ -48,7 +48,8 @@ nav {
 }
 
 .hero {
-    width: 85%;
+    width: 90%;
+    max-width: 1200px;
     margin: 60px auto;
 
     display: flex;
@@ -84,6 +85,8 @@ nav {
 
 .hero-image img {
     width: 280px;
+    height: 320px;
+    object-fit: cover;
     border-radius: 50%;
     border: 5px solid white;
     box-shadow: 0 0 25px rgba(0,0,0,.2);
@@ -124,5 +127,109 @@ nav {
     .hero-image img{
         width:200px;
     }
+
+}
+
+.skills-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    margin-top:20px;
+}
+
+.skill-card{
+    background:#b88f25;
+    color:white;
+    padding:12px 22px;
+    border-radius:30px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.skill-card:hover{
+    transform:scale(1.08);
+}
+
+section{
+    margin-bottom:40px;
+}
+
+.card {
+    width: 90%;
+    max-width: 1200px;
+
+    margin: 40px auto;
+
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+}
+
+.projects-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:25px;
+
+    margin-top:30px;
+
+}
+
+.project-card{
+
+    background:#fff;
+
+    border-radius:12px;
+
+    padding:25px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+    transition:.3s;
+
+}
+
+.project-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.project-card h3{
+
+    color:#b88f25;
+
+    margin-bottom:15px;
+
+}
+
+.project-card p{
+
+    margin-bottom:20px;
+
+    line-height:1.6;
+
+}
+
+.footer{
+
+    background:#222;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+    margin-top:50px;
+
+}
+
+.footer p{
+
+    margin:5px 0;
 
 }
